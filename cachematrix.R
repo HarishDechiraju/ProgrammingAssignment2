@@ -1,7 +1,11 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## The function creates a cache matrix 
+## The inverse matrix is cached inside the object m which is unique for EACH instance the function is called.
+## The output of the function is a list with 4 elements, which are 
+# the five functions defined herein: setmatrix, getmatrix, setinverse, 
+# getinverse
 
 makeCacheMatrix <- function(x = matrix()) {
 
